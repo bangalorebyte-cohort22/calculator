@@ -2,7 +2,7 @@
 
 ''' Calculator app '''
 
-def user_input(user_in):
+def user_input():
     pass
 
 def add():
