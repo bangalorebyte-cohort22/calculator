@@ -3,7 +3,9 @@
 ''' Calculator app '''
 
 def user_input():
-    pass
+    user_input = input("Enter your maths operation and numbers: ")
+    return user_input.split(" ")
+
 
 def add():
     pass
