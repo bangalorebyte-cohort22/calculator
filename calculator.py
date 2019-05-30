@@ -14,7 +14,8 @@ def input_check(user_input):
     if "." in user_input[1] and user_input[2]:
         print ("Not a whole number. Please enter a whole number.")
     # if user_input
-    # user_input[0] in ['div', 'mul', 'add', 'sub']
+    if user_input[0] in ['div', 'mul', 'add', 'sub']:
+        print ("Not a recognized operation. Enter either div, mul, add, sub")
 
 
 def add():
