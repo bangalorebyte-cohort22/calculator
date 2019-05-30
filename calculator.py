@@ -11,9 +11,10 @@ def input_check(user_input):
         print("Please enter either: div, mul, add, sub and 2 numbers separated with spaces")
         raise "Error"
     # if user_input[1] == str.__contai
-    if "." in user_input[1] and user_input[2]:
+    if "." in user_input[1]:
         print ("Not a whole number. Please enter a whole number.")
-    # if user_input
+    if "." in user_input[2]:
+        print ("Not a whole number. Please enter a whole number.")
     if user_input[0] in ['div', 'mul', 'add', 'sub']:
         print ("Not a recognized operation. Enter either div, mul, add, sub")
 
